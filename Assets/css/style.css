@@ -23,3 +23,15 @@ header h1 {
 .tall-row {
     height: 50px;
 }
+
+
+@media (min-width: 0px) and (max-width: 991px) {
+    .bigscreen { display: none; }
+}
+
+@media (min-width: 992px) {
+    .medscreen { display: none; }
+}
+
+
+
