@@ -4,30 +4,63 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Blake Brintle's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
 </head>
 
 <body>
     
-    <header class="row bg-light add-padding">
-        <div class="col-sm-8">
-            <h1 class="navbar-brand bg-info text-white margin-left">Blake Brintle</h1>
+    <header class="row bg-dark add-padding">
+
+        <div class="col-lg-8 col-md-10 col-sm-9 col-8">
+            <h1 class="navbar-brand text-info margin-left">Blake Brintle</h1>
         </div>
-        <div class="col-sm-4">
-            <ul class="nav absolutePos">
+
+        <!--Nav Links / Hamburger Menu Bar-->
+        <div class="col-lg-4 col-md-2 col-sm-3 col-4">
+
+            <!--Size >=992 will trigger below Nav-->
+            <ul class="nav absolutePos bigscreen">
                 <li class="nav-item">
                     <a class="nav-link active" href="./contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
             </ul>
-            </div>
+
+            <nav class="navbar navbar-dark bg-dark medscreen">
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler toggler-example purple darken-3" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
+                        aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-2x"></i></span></button>
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent41">
+                        <!-- Links -->
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./portfolio.html">Portfolio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">About</a>
+                            </li>
+                        </ul>
+                        <!-- /Links -->
+                    </div>
+                    <!-- /Collapsible content -->                
+            </nav>
+            <!--/ Nav Links & Hamburger Menu Bar-->
+
+        </div>
+
     </header>
 
     <!--Create an empty space-->
@@ -36,33 +69,33 @@
         </div>
     </div>
 
-    <div class="container-fluid margin-left">
+    <div class="container-fluid margin-left ">
         <div class="row">
-            <div class="col-sm-7 bg-light">
+            <div class="col-sm-7 col-11 bg-light margin-right">
                 <div class="row">
-                    <div class="col-sm-12 pt-4 pb-4">
+                    <div class="col-sm-11 pt-4 pb-4">
                         <h1 class="text-info ">Portfolio</h1>
                     </div>
                 </div> 
                 <div class="row">
-                    <div class="col-sm-6 mb-4">
-                        <img src="./Assets/Images/300x300.jpg" alt="imgBox">
+                    <div class="col-sm-6 col-12 mb-4">
+                        <img src="./Assets/Images/300x300.jpg" class="adjSize" alt="imgBox">
                     </div>
-                    <div class="col-sm-6 mb-4">
-                        <img src="./Assets/Images/300x300.jpg" alt="imgBox">
+                    <div class="col-sm-6 col-12 mb-4">
+                        <img src="./Assets/Images/300x300.jpg" class="adjSize" alt="imgBox">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 mb-4">
-                        <img src="./Assets/Images/300x300.jpg" alt="imgBox">
+                    <div class="col-sm-6 col-12 mb-4">
+                        <img src="./Assets/Images/300x300.jpg" class="adjSize" alt="imgBox">
                     </div>
-                    <div class="col-sm-6 mb-4">
-                        <img src="./Assets/Images/300x300.jpg" alt="imgBox">
+                    <div class="col-sm-6 col-12 mb-4">
+                        <img src="./Assets/Images/300x300.jpg" class="adjSize" alt="imgBox">
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-sm-4">
-                        <img src="./Assets/Images/300x300.jpg" alt="imgBox">
+                <div class="row">
+                    <div class="col-sm-6 col-12 mb-4">
+                        <img src="./Assets/Images/300x300.jpg" class="adjSize margin-right" alt="imgBox">
                     </div>
                 </div>
             </div>
@@ -74,20 +107,22 @@
         <div class="col-sm-12">
         </div>
     </div>
-    <div class="row taller-row">
-        <div class="col-sm-12">
-        </div>
-    </div>
 
-    <div class="row bg-info fixed-bottom">
-        <div class="col-sm-12 taller-row">
-        </div>
-    </div>
-    <footer class="row fixed-bottom bg-dark">
-        <div class="col-sm-12 tall-row">
+
+    <footer class="container-fluid fixed-bottom bg-dark">
+        <div class="row bg-dark">
+            <hr>
+                <div class="col-sm-12 text-center center-block">
+                        <a href="https://bbrintle.github.io/"><i class="fab fa-github-square fa-2x social"></i></a>
+                        <a href="https://www.linkedin.com/in/blake-brintle-3b421427/"><i class="fab fa-linkedin fa-2x social"></i></a>
+                        <a href="mailto:blakebrintle@gmail.com"><i class="fa fa-envelope-square fa-2x social"></i></a>
+                </div>
+            <hr />
         </div>
     </footer>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
