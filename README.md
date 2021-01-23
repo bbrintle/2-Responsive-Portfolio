@@ -1,5 +1,4 @@
-# Responive Portfolio (Homework - 2)
-
+# Responive Portfolio
 * root folder contains:
 
 * README.md      (Read Me File)
